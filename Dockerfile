@@ -3,8 +3,8 @@
  
  FROM ubuntu:16.04
  
- LABEL maintainer "@twistify"
- LABEL description "Eclipse Neon on Ubuntu over VNC"
+ LABEL maintainer "@Blissfish"
+ LABEL description "Eclipse on Ubuntu over VNC"
  
  
  # install base packages required
