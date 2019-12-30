@@ -26,8 +26,7 @@
  COPY eclipse.desktop /usr/share/applications/eclipse.desktop
  
  RUN     cd /tmp \
-     &&  wget http://download.eclipse.org/technology/epp/downloads/release/neon/2/eclipse-java-neon-2-linux-gtk-x86_64.ta
- r.gz
+     &&  wget http://download.eclipse.org/technology/epp/downloads/release/neon/2/eclipse-java-neon-2-linux-gtk-x86_64.tar.gz
  
  RUN     cd /tmp \
      &&  tar xvf eclipse-java-neon-2-linux-gtk-x86_64.tar.gz \
